@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/iconfont1.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>和气天气</title>
+</head>
+
+<body>
+
+    <div class="weather">
+        <div class="bg"></div>
+        <header>
+            <div class="header-left iconfont icon-zhedie">
+
+                <div class="show">
+                    <div class="circle"></div>
+                    <div class="show-list">管理城市</div>
+                    <div class="show-list">桌面天气</div>
+                    <div class="show-list">更新间隔</div>
+                </div>
+
+            </div>
+            <div class="header-right">
+                <input class="inp" type="text">
+                <span class="search iconfont icon-sousuo"></span>
+            </div>
+        </header>
+        <main>
+            <!-- 1.0 -->
+            <div class="now-weather">
+                <ul>
+                    <li class="location iconfont icon-dingwei"></li>
+                    <li class="weather-status"></li>
+                    <li class="wind-status"></li>
+                    <li ><span class="day"></span><span class="date"></span></li>
+                </ul>
+                <div class="temp">
+                    <p class="tmp"></p>
+                    <span class="min-max-tmp">&nbsp;暂定-1°~12°</span>
+                </div>
+            </div>
+
+            <!-- 2.0 -->
+            <div class="today-weather">
+                <div class="today-header">24小时天气</div>
+                <div class="today-body">
+                    <ul class="list clearfix">
+                       
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- 3.0 -->
+            <div class="future">
+                <div class="future-title">未来7天天气</div>
+                <div class="future-content">
+                    <ul class="fw">
+                        
+                    
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
